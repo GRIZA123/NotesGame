@@ -1,6 +1,6 @@
 import pygame
-from qqq import get_frequency,get_note_from_frequency,stream,RATE,CHUNK
-from config import WIDTH,HEIGHT,SPEED,NOTE_PART
+from configsound import get_frequency,get_note_from_frequency,stream,RATE,CHUNK
+from configofgame import WIDTH,HEIGHT,SPEED,NOTE_PART
 from functions.f import set_list_pos,get_note_height
 
 class Game:
